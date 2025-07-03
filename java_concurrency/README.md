@@ -103,7 +103,7 @@ pom.xml → Maven config (JUnit 5 included)
 
 **Result:** The speed-up stays ≈1× because the structure is flat and uniform — proving that parallel overhead cancels any gain when no real recursive splitting is possible.
 
-✅ These tests prove that **structure matters** more than size alone. Our flat tree stayed at ~1× speed-up even when we increased its size from 10000 files (first figure) to 500000 files (second figure), but the deep, realistic tree produced the expected ~3×–4× boost. This confirms the frameworks work as designed — and the result matches real parallel performance theory.
+✅ These tests prove that **structure matters** more than size alone. Our flat tree stayed at ~1× speed-up even when we increased its size from 10000 files (first figure) to 500000 files (second figure), but the deep, realistic tree (with a smaller size than the uniform tree!) produced the expected ~3×–4× boost. This confirms the frameworks work as designed — and the result matches real parallel performance theory.
 
 ## Non-Functional Metrics
 
