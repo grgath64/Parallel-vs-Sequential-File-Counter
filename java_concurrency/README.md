@@ -134,6 +134,7 @@ pom.xml → Maven config (JUnit 5 included)
 
 
 
-**Contacts:** - georgesatieh4@gmail.com
-              - apikiancln@gmail.com
-              - patrickazzi79@gmail.com
+**Contacts:** 
+- georgesatieh4@gmail.com
+- apikiancln@gmail.com
+- patrickazzi79@gmail.com
