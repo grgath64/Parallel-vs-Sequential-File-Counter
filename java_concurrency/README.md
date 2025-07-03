@@ -54,7 +54,8 @@ src/
 │ ├─ utils/
 │ │ ├─ RunTimer.java
 │ ├─ Main.java
-│ ├─ DummyFolderGenerator.java
+│ ├─ DeepFolderGenerator.java
+| ├─ UniformFolderGenerator.java
 ├─ test/java/
 │ ├─ counters/FileCounterTests.java
 pom.xml → Maven config (JUnit 5 included)
